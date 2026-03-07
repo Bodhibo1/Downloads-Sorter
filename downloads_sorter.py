@@ -5,7 +5,7 @@ folder = os.path.join(os.path.expanduser("~"), "Downloads")
 
 file_types = {	
 	"Images": [".png", ".jpeg", ".jpg", ".pdn", ".psd"],
-	"Zips": [".zip", ".7z"],
+	"Archives": [".zip", ".7z"],
 	"Sounds": [".mp3", ".wav", ".m4a"],
 	"Executables": [".exe"],
 	"Document Files": [".pdf", ".docx"],
