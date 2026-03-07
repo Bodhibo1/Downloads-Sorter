@@ -5,7 +5,7 @@ folder = os.path.join(os.path.expanduser("~"), "Downloads")
 
 file_types = {	
 	"Images": [".png", ".jpeg", ".jpg", ".pdn", ".psd"],
-	"Archives": [".zip", ".7z"],
+	"Zips": [".zip", ".7z"],
 	"Sounds": [".mp3", ".wav", ".m4a"],
 	"Executables": [".exe"],
 	"Document Files": [".pdf", ".docx"],
@@ -13,8 +13,8 @@ file_types = {
 	"Gifs": [".gif"]
 }
 
-for categories in file_types:
-	os.makedirs(os.path.join(folder, categories), exist_ok=True)
+for bitch in file_types:
+	os.makedirs(os.path.join(folder, bitch), exist_ok=True)
 
 for file in os.listdir(folder):
 
@@ -23,10 +23,10 @@ for file in os.listdir(folder):
 	if os.path.isdir(source):
 		continue
 
-	for groups, extensions in file_types.items():
+	for faggot, omegafaggot in file_types.items():
 
-		if any(file.lower().endswith(ext) for ext in extensions ):
-			destination = os.path.join(folder, groups, file)
+		if any(file.lower().endswith(pussy) for pussy in omegafaggot):
+			destination = os.path.join(folder, faggot, file)
 
 			shutil.move(source, destination)
 
