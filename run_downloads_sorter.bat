@@ -1,3 +1,3 @@
 @echo off
-python Sorter.py %*
+python downloads_sorter.py %*
 pause
